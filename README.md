@@ -1,7 +1,9 @@
 # FAKE OR REAL NEWS DATASET 
+https://www.kaggle.com/code/sehdemir/ml-fake-real
 # PROJENİN AMACI 
 Bu projenin amacı, makine öğrenimi yöntemleri kullanarak haberlerin gerçek (real) veya sahte (fake) olup olmadığını otomatik olarak tespit etmektir. Özellikle, haber metinlerinin içeriklerini inceleyip, sahte haberlerin yayılmasını önlemeye yönelik bir sınıflandırma modeli geliştirmeyi hedefler.
 # PROJENİN ÖZETİ
 Sahte haberler, kamuoyunu yanlış bilgilendirme ve manipülasyon amacı taşıyan yanlış veya çarpıtılmış içeriklerdir. Bu proje, haber metinlerinin gerçek mi yoksa sahte mi olduğunu belirleyen bir makine öğrenimi modeli geliştirmeyi amaçlamaktadır.Veri seti, çeşitli haberlerin metinlerini ve etiketlerini (gerçek/sahte) içermektedir. Projede hem denetimli hem de denetimsiz öğrenme algoritmaları uygulanmıştır. 
 # PROJENİN SONUCU 
 Fake-real haber sınıflandırması için denetimli öğrenme modelleri genellikle daha uygundur çünkü bu tür görevler, her haberin belirli bir sınıfa ("fake" veya "real") ait olduğu etiketli verilerle çalışır. Denetimli öğrenme, etiketli verilerle modelin bu sınıflandırma görevini öğrenmesini sağlar ve performansını optimize etmek için uygun hiperparametre ayarları yapılabilir. Denetimsiz öğrenme ise etiketli veri gerektirmediğinden ve veri kümelerini gruplamak veya yapıyı keşfetmek için kullanıldığından, fake-real haber ayrımı gibi açıkça tanımlanmış sınıflama problemleri için genellikle daha az uygundur. Sonuçlara göre, en iyi performansı SVM (Destek Vektör Makineleri) algoritması gösterdi. Bu model, 0.64 doğruluk ve 0.65 F1-skoru ile diğer denetimli ve denetimsiz öğrenme algoritmalarına göre daha yüksek sonuçlar verdi. Denetimsiz öğrenme yöntemlerinin ve diğer denetimli modellerin performansları genellikle daha düşük çıktı. SVM, "fake" ve "real" haberleri ayırt etmede daha başarılı oldu.
+
